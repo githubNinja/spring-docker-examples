@@ -1,0 +1,3 @@
+FROM openjdk:8-jre-alpine3.9
+COPY target/spring-docker-example-0.0.1-SNAPSHOT.jar /run_spring_docker.jar
+CMD ["java", "-jar", "/run_spring_docker.jar"]
