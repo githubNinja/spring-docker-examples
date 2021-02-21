@@ -5,10 +5,10 @@
  
  
  ### Steps to setup workspace for this repository
- ## -t flag denotes a docker tag which in this case it's 1.0-SNAPSHOT
-  * docker build -t imageName:1.0-SNAPSHOT
- 
- 
+ * docker build -t imageName:1.0-SNAPSHOT
+ *  [-t flag denotes a docker tag which in this case it's 1.0-SNAPSHOT]
+  
+  
  ### Run the docker container with the below command, -d option is to tell the container to run in background ( detach mode).
   * docker run -d -p 8080:8080 imageName
  
