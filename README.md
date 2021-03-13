@@ -15,6 +15,16 @@
  ### After the container is running execute the below command to test the spring boot app.
  
  * [Run] (http://localhost:8080)
+
+### Docker compose
+To run using docker compose use the below commands to start the container
+#### Check if docker compose config is correct
+  *docker-compose config
+
+#### Run docker-compose
+  *docker-compose up --build
+
+
  
 
       
