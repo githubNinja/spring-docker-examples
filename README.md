@@ -2,7 +2,15 @@
   ## Run the below command to generate the artifact
  *mvn clean package
  
- 
+*Project structure
+    
+    ├── spring-docker              # Root for spring docker java source
+    ├──────src                     # Source files (alternatively `lib` or `app`)
+    ├──────DockerFile              # Docker File
+    ├──────pom.xml                 # pom.xml maven dependencies
+    ├──docker-compose.yaml
+    └──README.md
+  
  
  ### Steps to setup workspace for this repository
  * docker build -t imageName:1.0-SNAPSHOT
