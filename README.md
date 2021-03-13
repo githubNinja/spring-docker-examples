@@ -1,5 +1,5 @@
 # spring-docker-examples
-  ## Run the below command to generate the artifact
+  ### Run the below command to generate the artifact
  *mvn clean package
  
 *Project structure
