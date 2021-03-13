@@ -14,7 +14,7 @@ public class SpringDockerExampleApplication {
 		return "Welcome to Spring docker container !!";
 	}
 	public static void main(String[] args) {
-		System.out.println("running Spring docker !!!1");
+		System.out.println("running Spring docker !!!");
 		SpringApplication.run(SpringDockerExampleApplication.class, args);
 	}
 

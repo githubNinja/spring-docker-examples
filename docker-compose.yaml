@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  spring-docker-service:
+    build:
+      context: spring-docker
+      dockerfile: ./DockerFile
+    ports:
+      - 8080:8080
